@@ -19,7 +19,7 @@
     }
 
     async function searchResult(searchWord){
-        let url = "http://pokeapi.co/api/v2/pokemon/"+searchWord;
+        let url = "https://pokeapi.co/api/v2/pokemon/"+searchWord;
         try {
             const response = await fetch(url);
             if (!response.ok) {
